@@ -69,12 +69,10 @@ export default function Home() {
           <div className="text-8xl mb-2 animate-bounce">🎂</div>
 
           {/* Main Title */}
-          <h1 className="text-4xl md:text-8xl font-bold mb-2 bg-gradient-to-r from-pink-500 via-rose-500 to-purple-500 bg-clip-text text-transparent">
-            สุขสันต์วันเกิดนะ
+          <h1 className="text-4xl mb-1 md:text-8xl font-bold mb-2 bg-gradient-to-r from-pink-500 via-rose-500 to-purple-500 bg-clip-text text-transparent">
+            BIRTHDAY ITIM
           </h1>
-          <h1 className="text-4xl md:text-8xl font-bold bg-gradient-to-r from-pink-500 via-rose-500 to-purple-500 bg-clip-text text-transparent">
-            ITIM
-          </h1>
+          
 
           {/* Gift Box Section - Only show if not opened */}
           {!giftOpened && (
